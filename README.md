@@ -4,13 +4,13 @@
 
 ```bash
   
-$ git clone git@gitlab.usaa.com:grp-pnc-exploratoryresearch/arbitration-outcome-predictive-model.git 
+$ git clone https://github.com/jrhea/simple-website-driver.git
 
 ```
 
 #### Project structure
 
- $PROJECT_ROOT/dataAquisition
+ $PROJECT_ROOT:
 
    
   ---  /data # contains input files to the websiteDriver.py script
@@ -23,7 +23,7 @@ $ git clone git@gitlab.usaa.com:grp-pnc-exploratoryresearch/arbitration-outcome-
 
 #### Debian/Ubuntu/Mint/etc
 
-From $PROJECT_ROOT/dataAquisition/src:
+From $PROJECT_ROOT/src:
 
 ```bash
 
@@ -41,13 +41,13 @@ To run existing website scripts.  Run this command from $PROJECT_ROOT/dataAquisi
 
 ```bash
 
-$ ./run.sh ../data/closed_demands_detail_demander.txt
+$ ./run.sh ../data/login.txt
 
 ```
 
 > IMPORTANT: You can copy the format of one of the example input command files to script the download of a different file
 
-To run in interactive mode. Run this command from $PROJECT_ROOT/dataAquisition/src:
+To run in interactive mode. Run this command from $PROJECT_ROOT/src:
 
 ```bash
 
@@ -55,7 +55,7 @@ $ ./run.sh
 
 ```
 
-> NOTE: The csv file will be downloaded to: $PROJECT_ROOT/dataAquisition/output
+> NOTE: The csv file will be downloaded to: $PROJECT_ROOT/output
 
 
 #### How to interact with the script
@@ -113,7 +113,7 @@ Navigate to url:
 ```
 
 navigate
-https://www.arbfile.org
+https://www.foo.com
 
 ```
 
