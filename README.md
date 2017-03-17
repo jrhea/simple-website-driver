@@ -12,7 +12,9 @@ $ git clone https://github.com/jrhea/simple-website-driver.git
 
  $PROJECT_ROOT:
 
-   
+  
+  ---  /bin # contains setup and run scripts
+  
   ---  /data # contains input files to the websiteDriver.py script
 
 
@@ -23,7 +25,7 @@ $ git clone https://github.com/jrhea/simple-website-driver.git
 
 #### Debian/Ubuntu/Mint/etc
 
-From $PROJECT_ROOT/src:
+From $PROJECT_ROOT/bin:
 
 ```bash
 
@@ -37,7 +39,7 @@ $ ./setup.sh
 
 #### How to run the script
 
-To run existing website scripts.  Run this command from $PROJECT_ROOT/src:
+To run existing website scripts.  Run this command from $PROJECT_ROOT/bin:
 
 ```bash
 
@@ -47,7 +49,7 @@ $ ./run.sh ../data/login.txt
 
 > IMPORTANT: You can copy the format of one of the example input command files to script the download of a different file
 
-To run in interactive mode. Run this command from $PROJECT_ROOT/src:
+To run in interactive mode. Run this command from $PROJECT_ROOT/bin:
 
 ```bash
 

@@ -14,7 +14,7 @@ export LANG=C.UTF-8
 #execute script
 
 if [ $# -eq 0 ]; then
-  ./websiteDriver.py
+  ../src/websiteDriver.py
 else
-  ./websiteDriver.py < $1
+  ../src/websiteDriver.py < $1
 fi
