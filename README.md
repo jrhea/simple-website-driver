@@ -37,7 +37,7 @@ $ ./setup.sh
 
 #### How to run the script
 
-To run existing website scripts.  Run this command from $PROJECT_ROOT/dataAquisition/src:
+To run existing website scripts.  Run this command from $PROJECT_ROOT/src:
 
 ```bash
 
