@@ -5,7 +5,7 @@
 # ./run.sh /path/to/data/login.txt
 
 #add phantomjs to path if it doesn't exist
-PHANTOMJS_PATH="/home/jrhea/3rd-party/phantomjs-2.1.1-linux-x86_64"
+PHANTOMJS_PATH="$HOME/3rd-party/phantomjs-2.1.1-linux-x86_64"
 [[ ":$PATH:" != *":$PHANTOMJS_PATH:"* ]] && PATH="$PHANTOMJS_PATH/bin:${PATH}"
 
 export LC_ALL=C.UTF-8
