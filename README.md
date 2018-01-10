@@ -1,4 +1,8 @@
-# Setup
+# simple-website-driver
+
+This project allows you to automate interactions with a website.
+
+## Setup
 
 #### Download repo
 
